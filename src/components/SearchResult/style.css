@@ -1,0 +1,28 @@
+.row-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-start;
+  text-align: left;
+  padding-top: 0.5rem;
+  cursor: pointer;
+}
+
+.active-row {
+  background-color: gray;
+  color: white;
+}
+
+.row-container:hover {
+  background-color: lightgray;
+}
+
+.remove {
+  color: white;
+  cursor: pointer;
+}
